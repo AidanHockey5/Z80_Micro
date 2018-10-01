@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.0.0-rc2-dev-493-gd776eaca8)")
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
     (thickness 1.6)
     (drawings 45)
-    (tracks 1240)
+    (tracks 1241)
     (zones 0)
     (modules 38)
     (nets 88)
@@ -74,7 +74,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -86,7 +86,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber/))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -3772,6 +3772,7 @@
   (segment (start 151.17 76.2) (end 152.4 77.43) (width 0.25) (layer B.Cu) (net 13))
   (segment (start 148.59 76.2) (end 151.17 76.2) (width 0.25) (layer B.Cu) (net 13))
   (via (at 106.68 63.5) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 13))
+  (via (at 157.9245 108.1405) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 13))
   (segment (start 92.71 136.525) (end 92.71 135.3997) (width 0.25) (layer B.Cu) (net 14))
   (segment (start 92.71 135.3997) (end 93.0733 135.3997) (width 0.25) (layer B.Cu) (net 14))
   (segment (start 93.0733 135.3997) (end 95.25 133.223) (width 0.25) (layer B.Cu) (net 14))
@@ -5859,6 +5860,12 @@
         (xy 109.030806 113.0103) (xy 109.026887 113.03) (xy 109.13826 113.589909) (xy 109.455423 114.064577) (xy 109.930091 114.38174)
         (xy 110.348667 114.465) (xy 110.631333 114.465) (xy 111.049909 114.38174) (xy 111.524577 114.064577) (xy 111.84174 113.589909)
         (xy 111.953113 113.03) (xy 111.870266 112.6135) (xy 111.889099 112.6135)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 102.923466 114.477862) (xy 103.053504 114.6079) (xy 102.762508 114.6079) (xy 102.647747 114.493139) (xy 102.893864 114.419005)
+        (xy 102.89629 114.412254)
       )
     )
     (filled_polygon
